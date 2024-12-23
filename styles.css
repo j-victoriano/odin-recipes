@@ -16,5 +16,9 @@ h2 {
     color: rgb(24, 94, 130);
 }
 
-
+a.home {
+    display: block;
+    width: auto;
+    text-align: end;
+}
 
