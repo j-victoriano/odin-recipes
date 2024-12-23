@@ -1,6 +1,7 @@
 img {
     width: 400px;
     height: auto;
+    margin: 0 auto;
 }
 
 body {
@@ -23,3 +24,14 @@ a.home {
     font-weight: 600;
 }
 
+a.homepage-link {
+    color: white;
+}
+
+li.list-homepage {
+    padding: 20px;
+    display: block;
+    margin: 20px 0;
+    width: fit-content;
+    background-color: rgb(237, 122, 65);
+}
