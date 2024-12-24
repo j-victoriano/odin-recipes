@@ -1,5 +1,5 @@
 img {
-    width: 400px;
+    flex-basis: 300px;
     height: auto;
     margin: 0 auto;
 }
@@ -20,7 +20,7 @@ h2 {
 a.home {
     display: block;
     width: auto;
-    text-align: end;
+    text-align: end; 
     font-weight: 600;
 }
 
@@ -30,19 +30,22 @@ a.homepage-link {
 
 li.list-homepage {
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px 20px;
     width: fit-content;
     background-color: rgb(255, 158, 110);
+    border-radius: 5px;
+    flex: 0 0 25%;
 }
 
 .list-container {
-    width: 900px;
+    width: auto;
     display: flex;
 }
 
 .list-items {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -56,4 +59,8 @@ li.list-homepage {
 .recipe-photo {
     display: flex;
     justify-content: center;
+}
+
+li .homepage-link {
+    align-self: flex-start;
 }
