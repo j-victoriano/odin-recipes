@@ -30,8 +30,25 @@ a.homepage-link {
 
 li.list-homepage {
     padding: 20px;
-    display: block;
     margin: 20px 0;
     width: fit-content;
-    background-color: rgb(237, 122, 65);
+    background-color: rgb(255, 158, 110);
+}
+
+.list-container {
+    width: 900px;
+    display: flex;
+}
+
+.list-items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.homepage-photo {
+    width: 300px;
 }
