@@ -52,3 +52,8 @@ li.list-homepage {
 .homepage-photo {
     width: 300px;
 }
+
+.recipe-photo {
+    display: flex;
+    justify-content: center;
+}
